@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Scroll CSS</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
+    <link href="https://fonts.googleapis.com/css2?family=Open+Sans&display=swap" rel="stylesheet">
+</head>
+<body>
+    <header class="main-header">
+        <h2>View Books Gallery</h2>
+        <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Ea, ipsum.</p>
+    </header>
+    <main class="container">
+        <section class="card" data-aos="fade-up">
+            <img src="img/book1.jpg" alt="">
+            <div>
+                <h3>Book One</h3>
+                <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Eligendi id obcaecati laborum deserunt sunt delectus unde, nobis sit iste error.</p>
+                <a href="#" class="btn">Buy Now</a>
+            </div>
+        </section>
+
+        <section class="card" data-aos="fade-left">
+            <img src="img/book2.jpg" alt="">
+            <div>
+                <h3>Book Two</h3>
+                <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Eligendi id obcaecati laborum deserunt sunt delectus unde, nobis sit iste error.</p>
+                <a href="#" class="btn">Buy Now</a>
+            </div>
+        </section>
+
+        <section class="card" data-aos="fade-right">
+            <img src="img/book3.jpg" alt="">
+            <div>
+                <h3>Book Three</h3>
+                <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Eligendi id obcaecati laborum deserunt sunt delectus unde, nobis sit iste error.</p>
+                <a href="#" class="btn">Buy Now</a>
+            </div>
+        </section>
+
+        <section class="card" data-aos="fade-left">
+            <img src="img/book4.jpg" alt="">
+            <div>
+                <h3>Book Four</h3>
+                <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Eligendi id obcaecati laborum deserunt sunt delectus unde, nobis sit iste error.</p>
+                <a href="#" class="btn">Buy Now</a>
+            </div>
+        </section>
+
+        <section class="card" data-aos="fade-right">
+            <img src="img/book5.jpg" alt="">
+            <div>
+                <h3>Book Five</h3>
+                <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Eligendi id obcaecati laborum deserunt sunt delectus unde, nobis sit iste error.</p>
+                <a href="#" class="btn">Buy Now</a>
+            </div>
+        </section>
+
+        <section class="card" data-aos="fade-left">
+            <img src="img/book6.jpg" alt="">
+            <div>
+                <h3>Book Six</h3>
+                <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Eligendi id obcaecati laborum deserunt sunt delectus unde, nobis sit iste error.</p>
+                <a href="#" class="btn">Buy Now</a>
+            </div>
+        </section>
+    </main>
+
+    <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+    <script>
+        AOS.init(
+            {
+                offset: 400,
+                duration: 1000
+            }
+        );
+    </script>
+</body>
+</html>
